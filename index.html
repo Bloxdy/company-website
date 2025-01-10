@@ -1,6 +1,11 @@
 <html>
     <head>
         <link rel="stylesheet" href="styles.css">
+        <script>
+            function refresh() {
+                window.location.reload();
+            }
+        </script>
     </head>
 
     <body>
@@ -16,20 +21,20 @@
             <div class="Browser">
                 <div class="BrowserBar">
                     <div class="LeftIcons">
-                        <img src="arrow.svg">
-                        <img src="arrow.svg" style="transform: rotate(180deg)">
-                        <img src="refresh.svg">
+                        <div class="Icon"><img src="arrow.svg"></div>
+                        <div class="Icon"><img src="arrow.svg" style="transform: rotate(180deg)"></div>
+                        <div class="Icon" onclick="refresh()"><img src="refresh.svg"></div>
                     </div>
                     <div class="BrowserBarBody">
-                        <img src="lock.svg">
+                        <div class="Icon"><img src="lock.svg"></div>
                         <div class="BrowserBarUrl">
                             bloxd.io
                         </div>
                     </div>
                     <div class="RightIcons">
-                        <img src="star.svg">
-                        <img src="avatar.svg">
-                        <img src="more.svg">
+                        <div class="Icon"><img src="star.svg"></div>
+                        <div class="Icon"><img src="avatar.svg"></div>
+                        <div class="Icon"><img src="more.svg"></div>
                     </div>
                 </div>
                 <div class="BrowserBody">
