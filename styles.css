@@ -137,15 +137,16 @@ body {
             }
 
             .BrowserBody {
+                position: relative;
                 flex-grow: 1;
                 width: 100%;
                 padding: 0 0.8rem 0.8rem 0.8rem;
                 box-sizing: border-box;
 
                 .BrowserBodyInner {
+                    position: relative;
                     width: 100%;
                     height: 100%;
-                    position: relative;
                     background-image: url("./Background.jpg");
                     background-size: cover;
                     background-position: bottom right;
